@@ -203,6 +203,7 @@
             this.BtnBorrar.TabIndex = 13;
             this.BtnBorrar.Text = "←";
             this.BtnBorrar.UseVisualStyleBackColor = false;
+            this.BtnBorrar.Click += new System.EventHandler(this.BtnBorrar_Click);
             // 
             // BtnLimpiar
             // 
@@ -214,6 +215,7 @@
             this.BtnLimpiar.TabIndex = 12;
             this.BtnLimpiar.Text = "CE";
             this.BtnLimpiar.UseVisualStyleBackColor = false;
+            this.BtnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
             // 
             // BtnDivision
             // 
@@ -266,10 +268,12 @@
             // TxtBPantalla
             // 
             this.TxtBPantalla.BackColor = System.Drawing.SystemColors.Window;
-            this.TxtBPantalla.Location = new System.Drawing.Point(24, 72);
+            this.TxtBPantalla.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtBPantalla.Location = new System.Drawing.Point(24, 63);
+            this.TxtBPantalla.Multiline = true;
             this.TxtBPantalla.Name = "TxtBPantalla";
             this.TxtBPantalla.ReadOnly = true;
-            this.TxtBPantalla.Size = new System.Drawing.Size(242, 20);
+            this.TxtBPantalla.Size = new System.Drawing.Size(242, 29);
             this.TxtBPantalla.TabIndex = 20;
             this.TxtBPantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 

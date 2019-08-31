@@ -143,5 +143,22 @@ namespace Calculadora_Visual
                     break;
             }
         }
+
+        private void BtnLimpiar_Click(object sender, EventArgs e)
+        {
+            TxtBPantalla.Clear();
+        }
+
+        private void BtnBorrar_Click(object sender, EventArgs e)
+        {
+            if(TxtBPantalla.Text.Length==1)
+            {
+                TxtBPantalla.Text = "";
+            }
+            else
+            {
+                TxtBPantalla.Text = TxtBPantalla.Text.Substring(0, TxtBPantalla.Text.Length - 1);
+            }
+        }
     }
 }
