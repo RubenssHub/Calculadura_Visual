@@ -19,7 +19,7 @@ namespace Calculadora_Visual
 
         private void Btn0_Click(object sender, EventArgs e)
         {
-            btn0.Text = btn0.Text + "0";
+            TxtBPantalla.Text = TxtBPantalla.Text + "0";
         }
     }
 }

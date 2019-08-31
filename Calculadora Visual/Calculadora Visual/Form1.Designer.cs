@@ -309,7 +309,7 @@
         private System.Windows.Forms.Button BtnMultiplicacion;
         private System.Windows.Forms.Button BtnResta;
         private System.Windows.Forms.Button BtnSuma;
-        private System.Windows.Forms.TextBox TxtBPantalla;
+        public System.Windows.Forms.TextBox TxtBPantalla;
     }
 }
 
